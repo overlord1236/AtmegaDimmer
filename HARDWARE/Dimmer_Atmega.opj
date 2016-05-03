@@ -18,6 +18,10 @@
   (Folder "Referenced Projects")
   (LastUsedLibraryBrowseDirectory "C:\Program Files\Orcad\Capture\Library")
   (PartMRUSelector
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\OLDLIBS\DEVICE.OLB")
+      (DeviceIndex "0"))
     (SW_PB_SPST
       (FullPartName "SW_PB_SPST.Normal")
       (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -28,12 +32,7 @@
       (DeviceIndex "0")))
   (GlobalState
     (FileView
-      (Path "Design Resources")
-      (Path "Design Resources" "D:\Projects\orcad\Dimmer\dimmer_atmega.dsn")
-      (Path "Design Resources" "D:\Projects\orcad\Dimmer\dimmer_atmega.dsn"
-         "SCHEMATIC1")
-      (Select "Design Resources" "D:\Projects\orcad\Dimmer\dimmer_atmega.dsn"
-         "SCHEMATIC1" "PAGE1"))
+      (Path "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
