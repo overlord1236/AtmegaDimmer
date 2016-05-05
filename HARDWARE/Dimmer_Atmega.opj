@@ -32,10 +32,28 @@
       (DeviceIndex "0")))
   (GlobalState
     (FileView
-      (Path "Design Resources"))
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "M:\Projects\orcad\AtmegaDimmer\HARDWARE\dimmer_atmega.dsn")
+      (Path "Design Resources"
+         "M:\Projects\orcad\AtmegaDimmer\HARDWARE\dimmer_atmega.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources"
+         "M:\Projects\orcad\AtmegaDimmer\HARDWARE\dimmer_atmega.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 0 216 0 646"))
-      (Tab 0))))
+        (Placement "44 0 1 -1 -1 -4 -23 0 216 0 646"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 44 1656 44 698")
+        (Scroll "681 120")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "M:\PROJECTS\ORCAD\ATMEGADIMMER\HARDWARE\DIMMER_ATMEGA.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
