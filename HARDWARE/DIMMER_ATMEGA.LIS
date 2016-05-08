@@ -1,0 +1,153 @@
+AutoECO Report
+FILE-A: M:\PROJECTS\ORCAD\ATMEGADIMMER\HARDWARE\DIMMER_ATMEGA.MAX
+FILE-B: M:\PROJECTS\ORCAD\ATMEGADIMMER\HARDWARE\DIMMER_ATMEGA.MNL
+If "*EOF*" immediately follows, no changes were made
+Found footprint DIP.100/28/W.400/L1.425 from PRT file for original FP DIL28, comp IC2
+Adding package ATMEGA8-DIL28
+Adding package R_5
+Adding package SW_PB_SPST
+Adding package HL
+Adding package CON3_2
+Adding package R_0
+Adding package R_15
+Adding package OPTO_TRIAC_4
+Adding package C_1
+Adding package C_4
+Adding package R_4
+Adding package LED_0
+Adding package D:\CDV\DESIGN\AUTOMAT\SUPPLY\SUPPLY.DSN/R_0
+Adding package TRIAC_4
+Adding package INDUCTOR
+Adding package CON3_40
+Adding package BRIDGE_1
+Adding package M:\PROJECTS\ORCAD\ATMEGADIMMER\HARDWARE\DIMMER_ATMEGA.DSN/C_1
+Adding package CON8_0
+Adding package CRYSTAL
+Adding package CON8_2
+Adding package OPTO_TRIAC_2
+Adding package D:\CDV\DESIGN\AUTOMAT\PREAMP\AUDIO.DSN/C_4
+Adding package CON8_1
+Adding package C_2
+Adding package IR5040_1
+Adding package CON3_1
+Adding component IC2
+Adding component R18
+Found footprint SM1206 from PRT file for part R_5, comp R18
+Adding component SW1
+Found footprint DIP.100/8/W.300/L.550 from PRT file for part SW_PB_SPST, comp SW1
+Adding component HL2
+Found footprint DIP.100/14/W.300/L.700 from PRT file for part HL, comp HL2
+Adding component XS1
+Found footprint CBL5/2 from PRT file for part CON3_2, comp XS1
+Adding component R10
+Found footprint AX/.675X.175/.040 from PRT file for part R_0, comp R10
+Adding component R9
+Adding component R6
+Found footprint CON SLIDE 5MM from PRT file for part R_15, comp R6
+Adding component OC1
+Found footprint DIP.100/6/W.300/L.375 from PRT file for part OPTO_TRIAC_4, comp OC1
+Adding component R12
+Adding component C12
+Adding component R19
+Adding component C8
+Found footprint SM1206_REV4 from PRT file for part C_4, comp C8
+Adding component R8
+Found footprint VRES40 from PRT file for part R_4, comp R8
+Adding component HL1
+Adding component FU1
+Adding component VS1
+Found footprint TO220AB from PRT file for part TRIAC_4, comp VS1
+Adding component R1
+Adding component C1
+Adding component R2
+Adding component R21
+Adding component L1
+Found footprint SM/L_1206 from PRT file for part INDUCTOR, comp L1
+Adding component IC1
+Found footprint TO220AA/RF1 from PRT file for part CON3_40, comp IC1
+Adding component R11
+Adding component C10
+Adding component VD1
+Found footprint DIP.100/8/W.300/L.425 from PRT file for part BRIDGE_1, comp VD1
+Adding component C3
+Adding component C6
+Adding component XP1
+Found footprint DSUB/VS/TM/15 from PRT file for part CON8_0, comp XP1
+Adding component ZQ1
+Adding component C9
+Adding component R7
+Adding component R3
+Adding component XP3
+Adding component R13
+Adding component VD2
+Adding component C5
+Adding component OC2
+Adding component R14
+Adding component FU2
+Adding component R20
+Adding component R15
+Adding component C2
+Adding component R4
+Adding component R16
+Adding component XP2
+Adding component R5
+Adding component C7
+Adding component R17
+Adding component C11
+Adding component SF1
+Adding component C4
+Adding component XS2
+Adding net SET
+Adding net N4114394
+Adding net MISO
+Adding net SCK
+Adding net MOSI
+Adding net RST
+Adding net N4133888
+Adding net N4133925
+Adding net N41338270
+Adding net N4135046
+Adding net N4109421
+Adding net N4135090
+Adding net N4135134
+Adding net AC_IN
+Adding net N4135393
+Adding net N
+Adding net N4135526
+Adding net N4135584
+Adding net N4135658
+Adding net A
+Adding net B
+Adding net C
+Adding net D
+Adding net E
+Adding net F
+Adding net G
+Adding net 1_AN
+Adding net 2_AN
+Adding net SS
+Adding net N4111537
+Adding net GND
+Adding net N4110773
+Adding net ZD
+Adding net N4110790
+Adding net N4110746
+Adding net N4110704
+Adding net +5V
+Adding net N4114820
+Adding net XTAL2
+Adding net XTAL1
+Adding net N4129323
+Adding net N4118198
+Adding net N4139049
+Adding net IRD
+Adding net TX
+Adding net RX
+Adding net TRC_CTRL
+Adding net N4112242
+Adding net LOAD
+Adding net N4112071
+Adding net N4112188
+Deleting net DEFAULT
+*EOF*
+No errors found
