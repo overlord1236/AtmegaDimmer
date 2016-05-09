@@ -72,9 +72,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 150 1762 71 725")
-        (Scroll "0 0")
-        (Zoom "158")
+        (Placement "44 0 1 -1 -1 -4 -23 150 1762 71 725")
+        (Scroll "1428 22")
+        (Zoom "316")
         (Occurrence "/"))
       (Path "M:\PROJECTS\ORCAD\ATMEGADIMMER\HARDWARE\DIMMER_ATMEGA.DSN")
       (Schematic "SCHEMATIC1")
