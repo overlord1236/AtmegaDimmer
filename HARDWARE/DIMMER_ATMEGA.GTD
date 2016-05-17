@@ -1,6 +1,6 @@
 {Program	OrCAD GerbTool(tm)
 	{Version	8.1.1}
-	{Created	Sun May 15 19:11:13 2016}
+	{Created	Tue May 17 18:01:45 2016}
 }
 {Environment
 	{SketchMode	No}
@@ -17,13 +17,13 @@
 	{CurrentDcode	10}
 	{BkColor	black}
 	{Undo		Yes}
-	{PreviousView	-10.522, 9.023, -5.269, 11.432}
+	{PreviousView	-12.957, 6.839, -2.056, 11.839}
 	{FilmBox	18.000, 14.000, yellow}
 	{NetID		0}
 	{Flags		0}
 }
 {SelectCriteria
-	{Mode		Window}
+	{Mode		Item}
 	{Boundary	Exclude}
 	{Flashes	Yes}
 	{Draws		Yes}
@@ -46,7 +46,7 @@
 		{Polarity	Dark}
 		{Key		0}
 		{Ftype		Gerber}
-		{Extents	-15.188, 5.865, -1.333, 19.671}
+		{Extents	-9.880, 8.020, -7.170, 11.430}
 		{NetID		0}
 		{Virtual	No}
 	}
@@ -91,7 +91,7 @@
 		{Polarity	Dark}
 		{Key		0}
 		{Ftype		Gerber}
-		{Extents	-9.950, 8.025, -7.250, 11.425}
+		{Extents	-9.875, 8.025, -5.770, 11.425}
 		{NetID		0}
 		{Virtual	No}
 	}
@@ -121,7 +121,7 @@
 		{Polarity	Dark}
 		{Key		0}
 		{Ftype		Gerber}
-		{Extents	-9.878, 8.023, -7.173, 11.428}
+		{Extents	-9.878, 8.023, -5.770, 11.428}
 		{NetID		0}
 		{Virtual	No}
 	}
@@ -136,7 +136,7 @@
 		{Polarity	Dark}
 		{Key		0}
 		{Ftype		Gerber}
-		{Extents	-10.088, 8.192, -7.239, 11.556}
+		{Extents	-10.088, 8.192, -7.245, 11.556}
 		{NetID		0}
 		{Virtual	No}
 	}
@@ -159,14 +159,14 @@
 		{File		DIMMER_ATMEGA.DRD}
 		{LyrName	DARK9_1}
 		{ApList		$x9.map}
-		{Visibility	On}
+		{Visibility	Off}
 		{FlashColor	red}
 		{DrawColor	red}
 		{Type		Composite}
 		{Polarity	Dark}
 		{Key		9}
 		{Ftype		Gerber}
-		{Extents	-10.150, -2.260, 3.735, 11.550}
+		{Extents	-10.150, -2.110, 3.735, 11.550}
 		{NetID		0}
 		{Virtual	No}
 	}
@@ -181,7 +181,7 @@
 		{Polarity	Clear}
 		{Key		9}
 		{Ftype		Gerber}
-		{Extents	-8.932, 8.543, -7.568, 9.432}
+		{Extents	-9.832, 8.068, -7.218, 11.382}
 		{NetID		0}
 		{Virtual	No}
 	}
@@ -189,14 +189,14 @@
 		{File		DIMMER_ATMEGA.DRD}
 		{LyrName	DARK9_3}
 		{ApList		$x9.map}
-		{Visibility	On}
+		{Visibility	Off}
 		{FlashColor	red}
 		{DrawColor	red}
 		{Type		Composite}
 		{Polarity	Clear}
 		{Key		9}
 		{Ftype		Gerber}
-		{Extents	-9.907, 8.068, -7.293, 11.382}
+		{Extents	-9.557, 8.576, -8.193, 9.432}
 		{NetID		0}
 		{Virtual	No}
 	}
@@ -379,11 +379,11 @@
 }
 {Spread
 	{AutoSpread		No}
-	{Rows			5}
-	{Cols			5}
+	{Rows			1}
+	{Cols			1}
 	{TabSize		0.0000, 0.0000}
-	{Layer			1}
-	{SortType		Row}
+	{Layer			0}
+	{SortType		Col}
 }
 {DRC
 	{RepFile		}

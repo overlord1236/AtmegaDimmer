@@ -56,26 +56,5 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 0 216 0 646"))
-      (Tab 0))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 88 1700 88 742")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "2283 864")
-        (Zoom "389"))
-      (Path "M:\PROJECTS\ORCAD\ATMEGADIMMER\HARDWARE\DIMMER.OLB")
-      (Package "HL"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -23 150 1762 71 725")
-        (Scroll "1428 22")
-        (Zoom "316")
-        (Occurrence "/"))
-      (Path "M:\PROJECTS\ORCAD\ATMEGADIMMER\HARDWARE\DIMMER_ATMEGA.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))))
+        (Placement "44 2 3 -1 -1 -4 -23 0 216 0 646"))
+      (Tab 0))))
