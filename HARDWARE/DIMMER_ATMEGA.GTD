@@ -1,521 +1,104 @@
-{Program	OrCAD GerbTool(tm)
-	{Version	8.1.1}
-	{Created	Tue May 17 18:01:45 2016}
-}
 {Environment
-	{SketchMode	No}
-	{OverlayMode	No}
-	{ShowErrors	No}
-	{ViewComposites	Yes}
-	{GridSnap	No}
-	{GridSize	0.2500, 0.2500}
-	{GridVisible	No}
-	{OrthoSnap	No}
-	{SnapAngle	45.0000}
-	{ViewMetric	No}
-	{ActiveLayer	1}
-	{CurrentDcode	10}
-	{BkColor	black}
-	{Undo		Yes}
-	{PreviousView	-12.957, 6.839, -2.056, 11.839}
-	{FilmBox	18.000, 14.000, yellow}
-	{NetID		0}
-	{Flags		0}
-}
-{SelectCriteria
-	{Mode		Item}
-	{Boundary	Exclude}
-	{Flashes	Yes}
-	{Draws		Yes}
-	{Arcs		Yes}
-	{Vertex		No}
-	{Dcode		0}
-	{Layer		0}
-}
-{Views
+	{FilesPath  M:\PROJECTS\ORCAD\ATMEGADIMMER\HARDWARE}
 }
 {Layers
-	{Layer	1
-		{File		DIMMER_ATMEGA.TOP}
-		{LyrName	-}
-		{ApList		$x1.map}
-		{Visibility	Off}
-		{FlashColor	cyan}
-		{DrawColor	cyan}
-		{Type		Top}
-		{Polarity	Dark}
-		{Key		0}
-		{Ftype		Gerber}
-		{Extents	-9.880, 8.020, -7.170, 11.430}
-		{NetID		0}
-		{Virtual	No}
+	{Layer  1
+		{File        DIMMER_ATMEGA.TOP}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Cyan}
+		{DrawColor   Cyan}
+		{Type        Top}
 	}
-	{Layer	2
-		{File		DIMMER_ATMEGA.GND}
-		{LyrName	-}
-		{ApList		$x2.map}
-		{Visibility	Off}
-		{FlashColor	gray50}
-		{DrawColor	gray50}
-		{Type		Plane}
-		{Polarity	Dark}
-		{Key		0}
-		{Ftype		Gerber}
-		{Extents	-10.150, 7.875, -6.975, 11.550}
-		{NetID		0}
-		{Virtual	No}
+	{Layer  2
+		{File        DIMMER_ATMEGA.GND}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  gray50}
+		{DrawColor   gray50}
+		{Type        Plane}
 	}
-	{Layer	3
-		{File		DIMMER_ATMEGA.PWR}
-		{LyrName	-}
-		{ApList		$x3.map}
-		{Visibility	Off}
-		{FlashColor	vga16green}
-		{DrawColor	vga16green}
-		{Type		Plane}
-		{Polarity	Dark}
-		{Key		0}
-		{Ftype		Gerber}
-		{Extents	-10.150, 7.875, -6.975, 11.550}
-		{NetID		0}
-		{Virtual	No}
+	{Layer  3
+		{File        DIMMER_ATMEGA.PWR}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  vga16green}
+		{DrawColor   vga16green}
+		{Type        Plane}
 	}
-	{Layer	4
-		{File		DIMMER_ATMEGA.BOT}
-		{LyrName	-}
-		{ApList		$x4.map}
-		{Visibility	On}
-		{FlashColor	red}
-		{DrawColor	red}
-		{Type		Bottom}
-		{Polarity	Dark}
-		{Key		0}
-		{Ftype		Gerber}
-		{Extents	-9.875, 8.025, -5.770, 11.425}
-		{NetID		0}
-		{Virtual	No}
+	{Layer  4
+		{File        DIMMER_ATMEGA.BOT}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Red}
+		{DrawColor   Red}
+		{Type        Bottom}
 	}
-	{Layer	5
-		{File		DIMMER_ATMEGA.SMT}
-		{LyrName	-}
-		{ApList		$x5.map}
-		{Visibility	Off}
-		{FlashColor	green}
-		{DrawColor	green}
-		{Type		Other}
-		{Polarity	Dark}
-		{Key		0}
-		{Ftype		Gerber}
-		{Extents	-9.878, 8.023, -7.173, 11.428}
-		{NetID		0}
-		{Virtual	No}
+	{Layer  5
+		{File        DIMMER_ATMEGA.SMT}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Green}
+		{DrawColor   Green}
+		{Type        Other}
 	}
-	{Layer	6
-		{File		DIMMER_ATMEGA.SMB}
-		{LyrName	-}
-		{ApList		$x6.map}
-		{Visibility	Off}
-		{FlashColor	vga16yellow}
-		{DrawColor	vga16yellow}
-		{Type		Other}
-		{Polarity	Dark}
-		{Key		0}
-		{Ftype		Gerber}
-		{Extents	-9.878, 8.023, -5.770, 11.428}
-		{NetID		0}
-		{Virtual	No}
+	{Layer  6
+		{File        DIMMER_ATMEGA.SMB}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  vga16yellow}
+		{DrawColor   vga16yellow}
+		{Type        Other}
 	}
-	{Layer	7
-		{File		DIMMER_ATMEGA.SST}
-		{LyrName	-}
-		{ApList		$x7.map}
-		{Visibility	Off}
-		{FlashColor	white}
-		{DrawColor	white}
-		{Type		Other}
-		{Polarity	Dark}
-		{Key		0}
-		{Ftype		Gerber}
-		{Extents	-10.088, 8.192, -7.245, 11.556}
-		{NetID		0}
-		{Virtual	No}
+	{Layer  7
+		{File        DIMMER_ATMEGA.SST}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  White}
+		{DrawColor   White}
+		{Type        Other}
 	}
-	{Layer	8
-		{File		DIMMER_ATMEGA.AST}
-		{LyrName	-}
-		{ApList		$x8.map}
-		{Visibility	Off}
-		{FlashColor	green}
-		{DrawColor	green}
-		{Type		Other}
-		{Polarity	Dark}
-		{Key		0}
-		{Ftype		Gerber}
-		{Extents	-10.150, 7.875, -6.975, 11.556}
-		{NetID		0}
-		{Virtual	No}
+	{Layer  8
+		{File        DIMMER_ATMEGA.AST}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Green}
+		{DrawColor   Green}
+		{Type        Other}
 	}
-	{Layer	9
-		{File		DIMMER_ATMEGA.DRD}
-		{LyrName	DARK9_1}
-		{ApList		$x9.map}
-		{Visibility	Off}
-		{FlashColor	red}
-		{DrawColor	red}
-		{Type		Composite}
-		{Polarity	Dark}
-		{Key		9}
-		{Ftype		Gerber}
-		{Extents	-10.150, -2.110, 3.735, 11.550}
-		{NetID		0}
-		{Virtual	No}
-	}
-	{Layer	10
-		{File		DIMMER_ATMEGA.DRD}
-		{LyrName	CLEAR9_2}
-		{ApList		$x9.map}
-		{Visibility	On}
-		{FlashColor	red}
-		{DrawColor	red}
-		{Type		Composite}
-		{Polarity	Clear}
-		{Key		9}
-		{Ftype		Gerber}
-		{Extents	-9.832, 8.068, -7.218, 11.382}
-		{NetID		0}
-		{Virtual	No}
-	}
-	{Layer	11
-		{File		DIMMER_ATMEGA.DRD}
-		{LyrName	DARK9_3}
-		{ApList		$x9.map}
-		{Visibility	Off}
-		{FlashColor	red}
-		{DrawColor	red}
-		{Type		Composite}
-		{Polarity	Clear}
-		{Key		9}
-		{Ftype		Gerber}
-		{Extents	-9.557, 8.576, -8.193, 9.432}
-		{NetID		0}
-		{Virtual	No}
-	}
-	{Layer	12
-		{File		DIMMER_ATMEGA.DRD}
-		{LyrName	DARK9_4}
-		{ApList		$x9.map}
-		{Visibility	On}
-		{FlashColor	red}
-		{DrawColor	red}
-		{Type		Other}
-		{Polarity	Dark}
-		{Key		0}
-		{Ftype		Gerber}
-		{Extents	0.000, 0.000, 0.000, 0.000}
-		{NetID		0}
-		{Virtual	No}
+	{Layer  9
+		{File        DIMMER_ATMEGA.DRD}
+		{LyrName     -}
+		{ApList      }
+		{Visibility  On}
+		{FlashColor  Red}
+		{DrawColor   Red}
+		{Type        Other}
 	}
 }
-{Format	Gerber
-	{Dialect		RS274X}
-	{m.n			3.4}
-	{Mode			Absolute}
-	{ZeroSuppression	Leading}
-	{Terminator		0x2a, 0xd, 0xa}
-	{Metric			No}
-	{Modal			No}
-	{UserData		Yes}
-	{Nets			No}
-	{Gcmds			Yes}
-	{CharSet		ASCII}
-	{Arcs360		No}
-	{ArcsModal		Yes}
-	{HonorCrLf		No}
-	{Comments		Yes}
-	{Flags			0}
-}
-{Format	Drill
-	{Dialect		Excellon}
-	{m.n			2.4}
-	{Mode			Absolute}
-	{ZeroSuppression	Leading}
-	{Terminator		0xd, 0xa}
-	{Metric			No}
-	{Modal			No}
-	{UserData		No}
-	{Nets			No}
-	{Gcmds			No}
-	{CharSet		ASCII}
-	{Arcs360		No}
-	{ArcsModal		Yes}
-	{HonorCrLf		No}
-	{Comments		No}
-	{Flags			0}
-}
-{Format	Mill
-	{Dialect		Excellon}
-	{m.n			2.3}
-	{Mode			Absolute}
-	{ZeroSuppression	Leading}
-	{Terminator		0xd, 0xa}
-	{Metric			No}
-	{Modal			No}
-	{UserData		No}
-	{Nets			No}
-	{Gcmds			No}
-	{CharSet		ASCII}
-	{Arcs360		No}
-	{ArcsModal		Yes}
-	{HonorCrLf		No}
-	{Comments		No}
-	{Flags			0}
-}
-{Extensions
-	{Gerber		gbr}
-	{ApLists	map}
-	{Drill		drl}
-	{Mill		nc}
-	{Tool		tl}
-	{HPGL		plt}
-	{PostScript	ps}
-	{LaserJet	lj}
-}
-{Plot
-	{HPGL
-		{OutFile	}
-		{MediaSize	34.000, 22.000}
-		{Offset		0.000, 0.000}
-		{Scale		1.0000}
-		{Border	No 0}
-		{PenWidth	0.010}
-		{PenSpeed	60}
-		{Pens
-			{Layer 1	1	1}
-			{Layer 2	1	1}
-			{Layer 3	1	1}
-			{Layer 4	1	1}
-			{Layer 5	1	1}
-			{Layer 6	1	1}
-			{Layer 7	1	1}
-			{Layer 8	1	1}
-			{Layer 9	1	1}
-			{Layer 10	1	1}
-			{Layer 11	1	1}
-			{Layer 12	1	1}
-		}
-		{Spread	No}
-		{SpreadOffset
-		}
-		{PadsOnly	No}
-		{Mode		Sketch}
-		{Rotate		No}
-	}
-	{PostScript
-		{OutFile	}
-		{MediaSize	8.000, 10.500}
-		{Offset		0.000, 0.000}
-		{Scale		1.0000}
-		{PadsOnly	No}
-		{Mode		Sketch}
-		{Rotate		No}
-		{GreyScale	No}
-		{Border	No}
-	}
-}
-{Merge
-	{HPGL
-		{PlotSize	Small}
-		{Rotate		No}
-		{Pens
-			{1	D10}
-			{2	D10}
-			{3	D10}
-			{4	D10}
-			{5	D10}
-			{6	D10}
-			{7	D10}
-			{8	D10}
-		}
-	}
-}
-{Text
-	{Filename	}
-	{Height		0.1000}
-	{Width		0.1000}
-	{LineSpace	1.0000}
-	{CharSpace	1.0000}
-	{Rotate		No}
-	{Slant		0}
-	{Mirror		No}
-}
-{ApReport
-	{Layer		1}
-	{SortBy		DCode}
-}
-{Rotate
-	{Degrees	90.00}
-	{Pivot		Center}
-}
-{Mirror
-	{Direction	Vert}
-	{Pivot		Center}
-}
-{DcodeScale
-	{Fixed		Yes}
-	{Scale		0.1000, 0.1000}
-}
-{Panelize
-	{AutoPanel		Yes}
-	{Virtual		No}
-	{Rows			0}
-	{Cols			0}
-	{TabSize		0.0000, 0.0000}
-	{ImageSpacing		0.0000, 0.0000}
-	{AutoVent		No}
-	{VentSpacing		0.0000, 0.0000}
-	{VentBorder		0.0000}
-	{VentDCode		0}
-	{VentLayer		0}
-}
-{Spread
-	{AutoSpread		No}
-	{Rows			1}
-	{Cols			1}
-	{TabSize		0.0000, 0.0000}
-	{Layer			0}
-	{SortType		Col}
-}
-{DRC
-	{RepFile		}
-	{Layer			1}
-	{Pad2Pad		0.0060}
-	{Pad2Trace		0.0060}
-	{Trace2Trace		0.0060}
-	{Border		0.0250}
-	{MinFlash		0.0100}
-	{MinTrace		0.0020}
-	{MinRing		0.0000}
-	{DrillLayer		0}
-	{BorderLayer		0}
-	{HiliLayer		0}
-	{IgnoreSelGrp		No}
-	{UseToolSize		No}
-	{WellBehaved		No}
-	{WindowMode		No}
-	{Stubs		Yes}
-	{ErrorCount		0}
-	{MaxErrors		100}
-}
-{Snoman
-	{RepFile		}
-	{FromLayer		0}
-	{ToLayer		1}
-	{DCode			0}
-	{Pad2Pad		0.0060}
-	{Pad2Trace		0.0060}
-	{Offset			-0.0050}
-	{MinPercent		0.6000}
-	{MaxPercent		0.8000}
-	{WindowMode		No}
-}
-{Teardrop
-	{RepFile		}
-	{Layer		0}
-	{DCode			0}
-	{Pad2Trace		0.0060}
-	{Trace2Trace		0.0060}
-	{HostOffsetPercent			0.1500}
-	{TeeLength		0.5000}
-	{TeeWidth		0.5000}
-	{WindowMode		No}
-	{DeleteExisting		No}
-}
-{TestPoints
-	{FxFile		1 }
-	{Dist		1 -1.0000}
-	{Thick		1 -1.0000}
-	{FxFile		2 }
-	{Dist		2 -1.0000}
-	{Thick		2 -1.0000}
-	{FxFile		3 }
-	{Dist		3 -1.0000}
-	{Thick		3 -1.0000}
-	{FxFile		4 }
-	{Dist		4 -1.0000}
-	{Thick		4 -1.0000}
-	{FxFile		5 }
-	{Dist		5 -1.0000}
-	{Thick		5 -1.0000}
-	{FxFile		6 }
-	{Dist		6 -1.0000}
-	{Thick		6 -1.0000}
-	{FxFile		7 }
-	{Dist		7 -1.0000}
-	{Thick		7 -1.0000}
-	{NetFile	}
-	{MapFile	}
-	{ToolFile	}
-	{TPLayer	0}
-	{ProbeSize	0.0230}
-	{MaxDeflect	0.1300}
-	{GridSize	0.1000}
-	{Points		Ends}
-	{Isolated	Include}
-}
-{Stagger
-	{TPLayer	0}
-	{ProbeSpacing	0.0230}
-	{EdgeSpacing	0.0000}
-	{MaxFlash	0.0600}
-	{StaggerDir		L-U}
-	{UseMiddle	No}
-	{WindowMode	Yes}
-}
-{Drill
-	{OutFile	}
-	{RepFile	}
-	{Swath		0.100}
-	{Sort		X}
-	{Layer		1}
-	{PreMergeLayer	0}
-	{PostMergeLayer	0}
-	{PreDrill	0.250}
-	{WindowMode	No}
-}
-{Mill
-	{OutFile	}
-	{ToolFile	}
-	{Layer		0}
-	{Tool		0}
-	{Compensate	No}
-	{Mode		Auto}
-	{TabSize	0.1000}
-	{OverShoot	0.0000}
-	{PlungeLine	Yes}
-	{Priority	Normal}
-	{Critical	vga16red}
-	{Int	vga16cyan}
-	{Norm	vga16green}
-	{Low	vga16blue}
-	{Clamp	vga16magenta}
-	{Plunge	red}
-	{Retract	red}
-	{Paths	0
-	}
-}
-{FixSS
-	{PadLayer	1}
-	{SilkLayer	1}
-	{WindowMode	No}
-	{Spacing	0.0100}
-}
-{PadRemoval
-	{WindowMode	No}
-	{Layer		0}
-	{DCode		0}
-}
-{Highlights
-	{Query		white}
-	{Select		white}
-	{DRC		white}
+{Format Gerber
+	{Dialect           RS274X}
+	{m.n               3.4}
+	{Mode              Absolute}
+	{ZeroSuppression   Leading}
+	{Terminator        0x2a, 0xD, 0xA}
+	{Metric            No}
+	{Modal             No}
+	{UserData          Yes}
+	{Nets              No}
+	{Gcmds             Yes}
+	{CharSet           ASCII}
+	{Arcs360           No}
+	{ArcsModal         Yes}
+	{HonorCrLf         No}
+	{Comments          Yes}
+	{Flags             0}
 }
